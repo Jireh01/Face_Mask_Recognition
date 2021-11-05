@@ -2,7 +2,8 @@ import cv2
 import os
 import numpy as np
 #Colocar el path del dataset de Kagle.
-path = "C:/Users/Jireh/Desktop/Uni/9no Ciclo/Taller Desempeno/Reconocimiento Mascarilla/OmesTutorials2021-main/Mascarillas dataset/Dataset_faces"
+#Path = direccion de donde se encuentra el dataset
+path = " "
 carpetas = os.listdir(path)
 
 labels = []
